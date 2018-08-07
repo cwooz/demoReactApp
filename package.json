@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/cwooz/demoReactApp/issues"
   },
-  "homepage": "https://github.com/cwooz/demoReactApp#readme"
+  "homepage": "https://github.com/cwooz/demoReactApp#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "password-generator": "^2.2.0"
+  }
 }
