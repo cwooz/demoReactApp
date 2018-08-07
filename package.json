@@ -1,0 +1,19 @@
+{
+  "name": "demoreactapp",
+  "version": "1.0.0",
+  "description": "simple react app to showcase skill set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwooz/demoReactApp.git"
+  },
+  "author": "wooz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwooz/demoReactApp/issues"
+  },
+  "homepage": "https://github.com/cwooz/demoReactApp#readme"
+}
