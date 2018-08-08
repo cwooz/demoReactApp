@@ -26,7 +26,24 @@ class App extends Component {
 
     return (
 
-      <div className="jumbotron">
+      <nav className="navbar navbar-light bg-light">
+        <a className="navbar-brand" href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="30" height="30" className="d-inline-block align-top" />
+          Demo
+        </a>
+
+        <div className="dropdown float-right">
+          <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown 4 Links
+          </a>
+            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a className="dropdown-item" href="https://github.com/cwooz/demoReactApp" target="_blank">View the Code</a>
+              <a className="dropdown-item" href="https://www.npmjs.com/package/password-generator" target="_blank">NPM/password-generator</a>
+            </div>
+        </div>
+      </nav>
+
+      <div className="jumbotron center-60">
         <div className="App">
           {/* Render the passwords */}
           {passwords.length ? (
@@ -48,15 +65,7 @@ class App extends Component {
               <br/>
               <br/>
 
-            <div className="dropdown">
-              <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown 4 Links
-              </a>
-                <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a className="dropdown-item" href="https://github.com/cwooz/demoReactApp" target="_blank">View the Code</a>
-                  <a className="dropdown-item" href="https://www.npmjs.com/package/password-generator" target="_blank">NPM/password-generator</a>
-                </div>
-              </div>
+            
 
 
 

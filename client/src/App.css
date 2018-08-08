@@ -1,32 +1,6 @@
-/* .App {
-  text-align: center;
-}
+/* Mixed styles to show flexibility */
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-} */
-
+/* style1 - SOME CUSTOM CSS */
 .App {
   text-align: center;
   font-family: "Courier New", monospace;
@@ -57,4 +31,14 @@ h1 {
 }
 .more:active {
   background-color: #FFEFA9;
+}
+
+
+/* style 2 - POST BOOTSTRAP */
+.center-60 { margin: auto; width: 60%; }
+
+
+/* PHONE VIEWPORT */
+@media screen and (max-width: 479px) { 
+  .center-60 { width: 90%; }
 }
