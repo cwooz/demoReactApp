@@ -35,10 +35,11 @@ h1 {
 
 
 /* style 2 - POST BOOTSTRAP */
-.center-60 { margin: auto; width: 60%; }
+.center-60 { margin-left: auto; margin-right: auto; width: 60%; }
+.top       { margin-top: 50px; }
 
 
 /* PHONE VIEWPORT */
-@media screen and (max-width: 479px) { 
+@media screen and (max-width: 600px) { 
   .center-60 { width: 90%; }
 }

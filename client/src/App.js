@@ -31,11 +31,11 @@ class App extends Component {
         <div className="navbar navbar-light bg-light">
           <a className="navbar-brand" href="#">
             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="30" height="30" className="d-inline-block align-top" />
-            Demo
+            React Password Generator
           </a>
           <div className="dropdown float-right">
             <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown 4 Links
+              Dropdown Links
             </a>
               <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <a className="dropdown-item" href="https://github.com/cwooz/demoReactApp" target="_blank">View the Code</a>
@@ -48,7 +48,7 @@ class App extends Component {
           {/* Render the passwords */}
           {passwords.length ? (
             <div>
-              <h1>5 Passwords.</h1>
+              <h1 className="top">5 Passwords</h1>
               <ul className="passwords">
                 {/* There will always be the same number of passwords, and they never change positions in the array */}
                 {passwords.map((password, index) =>
@@ -78,7 +78,7 @@ class App extends Component {
             </div>
           )}
         </div>
-        
+
       </div>
 
     );
