@@ -44,6 +44,11 @@ class App extends Component {
               Get More
             </button>
 
+                  <a className="btn waves-effect waves-light" href="https://github.com/cwooz/demoReactApp">
+                    <i className="material-icons link"></i>
+                     Check the Code
+                  </a>
+
             {/* <a 
               href="https://github.com/cwooz/demoReactApp"
               onClick={handleClick}>
