@@ -25,13 +25,11 @@ class App extends Component {
     // const { classtwo } = {  };
 
     return (
-
       <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand" href="#">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="30" height="30" className="d-inline-block align-top" />
           Demo
         </a>
-
         <div className="dropdown float-right">
           <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Dropdown 4 Links
@@ -42,7 +40,6 @@ class App extends Component {
             </div>
         </div>
       </nav>
-
       <div className="jumbotron center-60">
         <div className="App">
           {/* Render the passwords */}
@@ -65,26 +62,6 @@ class App extends Component {
               <br/>
               <br/>
 
-            
-
-
-
-                {/* <a 
-                  className="btn btn-primary"
-                  role="button"
-                  href="https://github.com/cwooz/demoReactApp"
-                  target="_blank">
-                  <i
-                    className="material-icons link">
-                  </i>
-                    View the Code
-                </a> */}
-
-              {/* <a 
-                href="https://github.com/cwooz/demoReactApp"
-                onClick={handleClick}>
-                View the Code
-              </a> */}
             </div>
           ) : (
             // Render a helpful message otherwise
