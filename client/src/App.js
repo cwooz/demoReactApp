@@ -44,11 +44,11 @@ class App extends Component {
           </div>
         </div>
 
-        <div className="App">
+        <div className="App top">
           {/* Render the passwords */}
           {passwords.length ? (
             <div>
-              <h1 className="top">5 Passwords</h1>
+              <h1>5 Passwords</h1>
               <ul className="passwords">
                 {/* There will always be the same number of passwords, and they never change positions in the array */}
                 {passwords.map((password, index) =>
