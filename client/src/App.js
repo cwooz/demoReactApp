@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import {Button, Icon} from 'react-materialize'
 import './App.css';
 
 class App extends Component {
-  // Initialize state
   state = { passwords: [] }
 
-  // Fetch passwords
   componentDidMount() {
     this.getPasswords();
   }
@@ -17,8 +16,13 @@ class App extends Component {
       .then(passwords => this.setState({ passwords }));
   }
 
+  // handleClick = () => {
+  //   console.log('this is:', this);
+  // }
+  
   render() {
     const { passwords } = this.state;
+    // const { classtwo } = {  };
 
     return (
       <div className="App">
@@ -35,10 +39,16 @@ class App extends Component {
               )}
             </ul>
             <button
-              className="more"
+              waves="light"
               onClick={this.getPasswords}>
               Get More
             </button>
+
+            {/* <a 
+              href="https://github.com/cwooz/demoReactApp"
+              onClick={handleClick}>
+              View the Code
+            </a> */}
           </div>
         ) : (
           // Render a helpful message otherwise
