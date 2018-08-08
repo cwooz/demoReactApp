@@ -5,13 +5,13 @@ class App extends Component {
   // Initialize state
   state = { passwords: [] }
 
-  // Fetch passwords after first mount
+  // Fetch passwords
   componentDidMount() {
     this.getPasswords();
   }
 
   getPasswords = () => {
-    // Get the passwords and store them in state
+    // Get the passwords, store them in state
     fetch('/api/passwords')
       .then(res => res.json())
       .then(passwords => this.setState({ passwords }));
@@ -22,17 +22,12 @@ class App extends Component {
 
     return (
       <div className="App">
-        {/* Render the passwords if we have them */}
+        {/* Render the passwords */}
         {passwords.length ? (
           <div>
             <h1>5 Passwords.</h1>
             <ul className="passwords">
-              {/*
-                Generally it's bad to use "index" as a key.
-                It's ok for this example because there will always
-                be the same number of passwords, and they never
-                change positions in the array.
-              */}
+              {/* There will always be the same number of passwords, and they never change positions in the array */}
               {passwords.map((password, index) =>
                 <li key={index}>
                   {password}
