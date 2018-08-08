@@ -19,7 +19,6 @@
   "homepage": "https://github.com/cwooz/demoReactApp#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "password-generator": "^2.2.0",
-    "react-materialize": "^2.4.2"
+    "password-generator": "^2.2.0"
   }
 }
