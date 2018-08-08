@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Icon} from 'react-materialize'
+// import {Button, Icon} from 'react-materialize'
 import './App.css';
 
 class App extends Component {
@@ -39,7 +39,7 @@ class App extends Component {
               )}
             </ul>
             <button
-              waves="light"
+              className="more"
               onClick={this.getPasswords}>
               Get More
             </button>
