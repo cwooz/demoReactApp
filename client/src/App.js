@@ -70,7 +70,7 @@ class App extends Component {
   <div className="card">
     <div className="card-header" id="headingOne">
       <h5 className="mb-0">
-        <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
           Information About the App
         </button>
       </h5>
@@ -78,8 +78,8 @@ class App extends Component {
 
     <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div className="card-body">
-        This React App Demo is a password generator. Each time you load the app or click New you’ll get 5 random paswords. The app was built using create-react-app and added Bootstrap after as a dependency. The App.css sheet shows custom styling, Bootstrap added for Dropdown Menu &amp; Navbar. Git created locally and pushed to Github for Backup and Heroku for Hosting. If you have any questions about the App, please contact me. Thanks for your time!
-        <a href="https://www.linkedin.com/in/chriswoosley/" target="_blank">Linkedin</a>
+        This React App Demo is a password generator. Each time you load the app or click New you’ll get 5 random passwords. An interesting idea made possible by the NPM dependency <a href="https://www.npmjs.com/package/password-generator" target="_blank">password-generator</a> .The app was built using create-react-app and added Bootstrap after as a dependency. The App.css sheet shows custom styling, Bootstrap added for Dropdown Menu &amp; Navbar. Git created locally and pushed to Github for Backup and Heroku for Hosting. If you have any questions about the App, please contact me. Thanks for your time!
+        <a href="https://www.linkedin.com/in/chriswoosley/" target="_blank"> Linkedin</a>
       </div>
     </div>
   </div>
