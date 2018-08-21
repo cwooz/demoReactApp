@@ -8,8 +8,8 @@ Thanks!
 ## Instructions
 Each time you reload the app or click `Get More` you’ll get 5 random paswords.
 ##### Please Note!
->The server hosting the app may be hibernating and may take up to 30 seconds to wake  
-`But it's pretty fast once it's awake!`
+>`The server hosting the app may be hibernating and may take up to 30 seconds to wake`  
+But it's pretty fast once it's awake!
 
 ## Built Using
 
@@ -17,4 +17,4 @@ Each time you reload the app or click `Get More` you’ll get 5 random paswords.
 import { React, ContextAPI, Axios, JSONplaceholder } from "dependencies";
 ```
 
-<img alt='Screen Shot' src="https://farm1.staticflickr.com/854/28997381857_d5a38d2b32_o.png" width="890">
+<img alt='Screen Shot' src="https://farm1.staticflickr.com/854/28997381857_d5a38d2b32_o.png" width="500">
